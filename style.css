@@ -1,0 +1,122 @@
+ 
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    margin: 100px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 175%;
+}
+
+section {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+}
+
+p {
+    position: relative;
+    clear: right;
+}
+
+div {
+    position: relative;
+    background-color: gray;
+    border: 1px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.text1{
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    float: right;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: pink;
+
+}
+.text2 {
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    float: right;
+    color: white;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: red;
+
+}
+
+.text3 {
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    color: black;
+    float: right;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: yellow;
+
+}
+
+
+
+.item {
+    padding: 5px;
+    border: none;
+    background-color: gray;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    margin: 0px;
+    height: 200px;
+}
+
+
+@media (min-width: 992px) {
+    .column-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .colmn-md-6 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colmn-md-12 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .colmn-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
